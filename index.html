@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hinglish AI Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat-header">AI Chat</div>
+    <div id="chat-box" class="chat-box"></div>
+    
+    <div class="chat-inputs">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+      <button onclick="startListening()">🎤</button>
+      <button onclick="stopSpeaking()">🛑 Stop</button>
+
+    </div>
+
+    <div class="chat-footer">
+      <button onclick="clearChat()">🗑️ Clear Chat</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
